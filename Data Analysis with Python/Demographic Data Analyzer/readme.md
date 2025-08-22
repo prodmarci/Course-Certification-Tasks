@@ -6,7 +6,7 @@ The input of the function should be a list containing 9 digits. The function sho
 
 The returned dictionary should follow this format:
 
-`{
+>`{
   'mean': [axis1, axis2, flattened],
   'variance': [axis1, axis2, flattened],
   'standard deviation': [axis1, axis2, flattened],
@@ -19,7 +19,7 @@ If a list containing less than 9 elements is passed into the function, it should
 
 For example, calculate([0,1,2,3,4,5,6,7,8]) should return:
 
-`{
+>`{
   'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0],
   'variance': [[6.0, 6.0, 6.0], [0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 6.666666666666667],
   'standard deviation': [[2.449489742783178, 2.449489742783178, 2.449489742783178], [0.816496580927726, 0.816496580927726, 0.816496580927726], 2.581988897471611],

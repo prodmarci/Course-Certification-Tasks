@@ -13,7 +13,7 @@ The returned dictionary should follow this format:
   'max': [axis1, axis2, flattened],\
   'min': [axis1, axis2, flattened],\
   'sum': [axis1, axis2, flattened]\
-}`
+}
 
 If a list containing less than 9 elements is passed into the function, it should raise a ValueError exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
 
